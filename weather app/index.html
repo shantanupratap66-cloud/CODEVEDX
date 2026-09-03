@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App - Find Weather Anywhere</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main container -->
+    <div class="container">
+        <!-- Header with title and dark mode toggle -->
+        <header class="header">
+            <div class="header-content">
+                <h1>🌤️ Weather App</h1>
+                <!-- Dark mode toggle button -->
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    🌙
+                </button>
+            </div>
+        </header>
+
+        <!-- Search section -->
+        <section class="search-section">
+            <form class="search-form" id="searchForm">
+                <input 
+                    type="text" 
+                    class="search-input" 
+                    id="searchInput" 
+                    placeholder="Enter city name (e.g., London, New York)"
+                    autocomplete="off"
+                >
+                <button type="submit" class="search-btn">Search</button>
+            </form>
+        </section>
+
+        <!-- Loading indicator (hidden by default) -->
+        <div class="loading" id="loadingIndicator">
+            <div class="spinner"></div>
+            <p>Loading weather data...</p>
+        </div>
+
+        <!-- Error message container (hidden by default) -->
+        <div class="error-message" id="errorMessage"></div>
+
+        <!-- Current weather section (hidden until data is loaded) -->
+        <section class="weather-section" id="weatherSection">
+            <!-- City name -->
+            <div class="city-info">
+                <h2 id="cityName"></h2>
+                <p id="currentDate"></p>
+            </div>
+
+            <!-- Main weather display -->
+            <div class="main-weather">
+                <!-- Weather icon and description -->
+                <div class="weather-icon-section">
+                    <img 
+                        id="weatherIcon" 
+                        class="weather-icon" 
+                        src="" 
+                        alt="Weather icon"
+                    >
+                    <p id="weatherDescription" class="weather-description"></p>
+                </div>
+
+                <!-- Temperature display -->
+                <div class="temperature-section">
+                    <div class="temperature">
+                        <span id="temperature" class="temp-value">--</span>
+                        <span class="temp-unit">°C</span>
+                    </div>
+                    <p class="feels-like">Feels like <span id="feelsLike">--</span>°C</p>
+                </div>
+            </div>
+
+            <!-- Weather details grid (humidity, wind speed, etc.) -->
+            <div class="weather-details">
+                <div class="detail-card">
+                    <div class="detail-icon">💧</div>
+                    <div class="detail-info">
+                        <p class="detail-label">Humidity</p>
+                        <p class="detail-value" id="humidity">--%</p>
+                    </div>
+                </div>
+
+                <div class="detail-card">
+                    <div class="detail-icon">💨</div>
+                    <div class="detail-info">
+                        <p class="detail-label">Wind Speed</p>
+                        <p class="detail-value" id="windSpeed">-- m/s</p>
+                    </div>
+                </div>
+
+                <div class="detail-card">
+                    <div class="detail-icon">🌡️</div>
+                    <div class="detail-info">
+                        <p class="detail-label">Pressure</p>
+                        <p class="detail-value" id="pressure">-- hPa</p>
+                    </div>
+                </div>
+
+                <div class="detail-card">
+                    <div class="detail-icon">👁️</div>
+                    <div class="detail-info">
+                        <p class="detail-label">Visibility</p>
+                        <p class="detail-value" id="visibility">-- km</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5-day forecast section -->
+        <section class="forecast-section" id="forecastSection">
+            <h3>5-Day Forecast</h3>
+            <div class="forecast-container" id="forecastContainer">
+                <!-- Forecast cards will be inserted here by JavaScript -->
+            </div>
+        </section>
+    </div>
+
+    <!-- Load JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
