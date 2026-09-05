@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Polarized sunglasses</title>
+  <desc id="desc">Classic polarized sunglasses with dark lenses.</desc>
+  <rect width="640" height="480" fill="#faf2ea"/>
+  <path d="M148 225c26-30 130-30 158 0 18 20 10 91-23 111-28 17-93 14-117-8-23-21-41-76-18-103Z" fill="#111827"/>
+  <path d="M334 225c28-30 132-30 158 0 23 27 5 82-18 103-24 22-89 25-117 8-33-20-41-91-23-111Z" fill="#111827"/>
+  <path d="M297 248c13-11 33-11 46 0" fill="none" stroke="#111827" stroke-width="16" stroke-linecap="round"/>
+  <path d="M145 226 80 196M495 226l65-30" fill="none" stroke="#0f766e" stroke-width="16" stroke-linecap="round"/>
+  <path d="M186 245c26-14 62-14 90 0M372 245c28-14 64-14 90 0" stroke="#ffffff" stroke-width="9" stroke-linecap="round" opacity="0.35"/>
+</svg>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - LumaCart</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="details">
+    <header class="site-header">
+        <nav class="navbar" aria-label="Main navigation">
+            <a class="brand" href="index.html" aria-label="LumaCart home">
+                <span class="brand-mark">LC</span>
+                <span class="brand-name">LumaCart</span>
+            </a>
+
+            <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="siteNav">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-menu" id="siteNav">
+                <a class="nav-link" href="index.html" data-nav-link="home">Home</a>
+                <a class="nav-link" href="products.html" data-nav-link="products">Products</a>
+                <a class="nav-link" href="index.html#categories" data-nav-link="categories">Categories</a>
+
+                <form class="nav-search" data-nav-search-form>
+                    <label class="sr-only" for="globalSearch">Search products</label>
+                    <input id="globalSearch" type="search" placeholder="Search products" data-nav-search autocomplete="off">
+                    <button type="submit" aria-label="Search">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <circle cx="11" cy="11" r="7"></circle>
+                            <path d="m16.5 16.5 4 4"></path>
+                        </svg>
+                    </button>
+                </form>
+
+                <a class="cart-link" href="cart.html" aria-label="View shopping cart">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M6 6h15l-2 9H8L6 6Z"></path>
+                        <path d="M6 6 5 2H2"></path>
+                        <circle cx="9" cy="20" r="1.5"></circle>
+                        <circle cx="18" cy="20" r="1.5"></circle>
+                    </svg>
+                    <span>Cart</span>
+                    <span class="cart-count" data-cart-count>0</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="page-shell">
+        <div id="productDetails"></div>
+    </main>
+
+    <footer class="footer">
+        <div>
+            <a class="brand footer-brand" href="index.html">
+                <span class="brand-mark">LC</span>
+                <span class="brand-name">LumaCart</span>
+            </a>
+            <p>Detailed product pages with quantity control and cart actions.</p>
+        </div>
+        <div class="footer-links">
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart</a>
+            <a href="checkout.html">Checkout</a>
+        </div>
+    </footer>
+
+    <script src="js/products.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/product-details.js"></script>
+</body>
+</html>

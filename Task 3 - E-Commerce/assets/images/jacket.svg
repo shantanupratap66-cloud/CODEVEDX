@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Denim jacket</title>
+  <desc id="desc">A soft denim jacket illustration.</desc>
+  <rect width="640" height="480" fill="#edf3fa"/>
+  <path d="M252 108h136l42 74 70 42-54 202H194L140 224l70-42z" fill="#4f6f91"/>
+  <path d="M252 108c20 34 116 34 136 0l-18 95-50 42-50-42z" fill="#7596bd"/>
+  <path d="M252 108l68 137 68-137M210 182l62 62M430 182l-62 62" fill="none" stroke="#ffffff" stroke-width="10" opacity="0.72"/>
+  <rect x="228" y="280" width="70" height="52" rx="8" fill="#35516f"/>
+  <rect x="342" y="280" width="70" height="52" rx="8" fill="#35516f"/>
+  <path d="M198 426h244" stroke="#1f344b" stroke-width="14" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Mechanical keyboard</title>
+  <desc id="desc">A compact mechanical keyboard with warm accent keys.</desc>
+  <rect width="640" height="480" fill="#f7f2ec"/>
+  <rect x="112" y="150" width="416" height="190" rx="24" fill="#111827"/>
+  <g fill="#ffffff">
+    <rect x="142" y="184" width="44" height="34" rx="7"/>
+    <rect x="198" y="184" width="44" height="34" rx="7"/>
+    <rect x="254" y="184" width="44" height="34" rx="7"/>
+    <rect x="310" y="184" width="44" height="34" rx="7"/>
+    <rect x="366" y="184" width="44" height="34" rx="7"/>
+    <rect x="422" y="184" width="44" height="34" rx="7"/>
+    <rect x="142" y="232" width="58" height="34" rx="7"/>
+    <rect x="212" y="232" width="44" height="34" rx="7"/>
+    <rect x="268" y="232" width="44" height="34" rx="7"/>
+    <rect x="324" y="232" width="44" height="34" rx="7"/>
+    <rect x="380" y="232" width="86" height="34" rx="7"/>
+    <rect x="142" y="280" width="86" height="34" rx="7"/>
+    <rect x="240" y="280" width="128" height="34" rx="7"/>
+  </g>
+  <rect x="380" y="280" width="86" height="34" rx="7" fill="#d95f45"/>
+</svg>

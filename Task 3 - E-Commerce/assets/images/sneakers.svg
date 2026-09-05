@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Everyday sneakers</title>
+  <desc id="desc">A pair of modern sneakers with orange and teal details.</desc>
+  <rect width="640" height="480" fill="#f1f7f3"/>
+  <path d="M124 304c42-8 82-33 111-72l108 38c52 18 95 26 151 25 34 0 52 25 41 50-8 19-27 28-57 28H156c-32 0-52-34-32-69Z" fill="#ffffff" stroke="#0b4f4a" stroke-width="12"/>
+  <path d="M233 232c8 42 47 67 116 75" fill="none" stroke="#d95f45" stroke-width="12" stroke-linecap="round"/>
+  <path d="M184 310h340" stroke="#111827" stroke-width="10" stroke-linecap="round"/>
+  <path d="M276 246l-32 42M318 260l-28 40M360 274l-24 36" stroke="#0f766e" stroke-width="9" stroke-linecap="round"/>
+</svg>

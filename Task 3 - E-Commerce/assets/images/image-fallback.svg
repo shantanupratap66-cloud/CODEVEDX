@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Product image fallback</title>
+  <desc id="desc">A simple product image fallback graphic.</desc>
+  <rect width="640" height="480" fill="#eef4f1"/>
+  <rect x="150" y="110" width="340" height="260" rx="22" fill="#ffffff" stroke="#d9e2df" stroke-width="8"/>
+  <path d="M220 310h200l-58-74-50 56-35-38z" fill="#0f766e" opacity="0.75"/>
+  <circle cx="252" cy="190" r="34" fill="#d95f45" opacity="0.8"/>
+</svg>

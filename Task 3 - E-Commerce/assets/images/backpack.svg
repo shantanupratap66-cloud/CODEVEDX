@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Commuter backpack</title>
+  <desc id="desc">A water-resistant commuter backpack with laptop pocket.</desc>
+  <rect width="640" height="480" fill="#eef4f1"/>
+  <path d="M212 172c0-62 45-104 108-104s108 42 108 104v242H212z" fill="#0f766e"/>
+  <path d="M248 172c0-40 28-68 72-68s72 28 72 68" fill="none" stroke="#c8eee7" stroke-width="16" stroke-linecap="round"/>
+  <rect x="244" y="230" width="152" height="116" rx="18" fill="#ffffff"/>
+  <rect x="264" y="258" width="112" height="12" rx="6" fill="#d95f45"/>
+  <rect x="264" y="290" width="88" height="12" rx="6" fill="#9ca3af"/>
+  <path d="M212 414h216" stroke="#0b4f4a" stroke-width="16"/>
+</svg>

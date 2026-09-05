@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Portable blender</title>
+  <desc id="desc">A portable blender with teal base and clear cup.</desc>
+  <rect width="640" height="480" fill="#f0f7fb"/>
+  <path d="M244 78h152l-22 218H266z" fill="#ffffff" stroke="#0b4f4a" stroke-width="12"/>
+  <path d="M270 142h100l-12 118H282z" fill="#c8eee7"/>
+  <circle cx="298" cy="202" r="18" fill="#d95f45"/>
+  <circle cx="342" cy="178" r="14" fill="#0f766e"/>
+  <circle cx="336" cy="236" r="16" fill="#f2bf4b"/>
+  <rect x="230" y="296" width="180" height="104" rx="24" fill="#0f766e"/>
+  <circle cx="320" cy="348" r="22" fill="#ffffff"/>
+  <rect x="260" y="400" width="120" height="28" rx="14" fill="#111827"/>
+</svg>
